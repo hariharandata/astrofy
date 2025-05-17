@@ -20,6 +20,28 @@ This is <b>Hariharan's Portfolio</b> – a personal website built with Astro and
 Here you'll find my resume, blog posts, featured projects, and more.  
 I’m passionate about building scalable data platforms, cloud-native pipelines, and AI-powered products.  
 Thanks for visiting!
+
+
+  <div>
+    <div class="text-3xl w-full font-bold mb-2">Professional Summary </div>
+
+    <div class="text-justify space-y-4">
+      <p>As a skilled and motivated Data Engineer, I specialize in designing and maintaining scalable, cloud-native data platforms that empower organizations to become truly data-driven. I have hands-on experience building robust data pipelines and management systems tailored to specific business needs, ensuring data quality, security, and accessibility across diverse teams.</p>
+      
+      <p>I collaborate closely with data scientists, architects, product owners, and stakeholders from concept to delivery, enabling the development of machine learning models and AI solutions through high-quality, reliable data. My work directly supports company growth and enhances user experience by delivering trusted, timely, and well-governed data across the entire organization.</p>
+      
+      <div>
+        <p class="font-semibold mb-2">I take pride in:</p>
+        <ul class="list-disc pl-5 space-y-1">
+          <li>Developing and deploying production-grade ETL/ELT pipelines</li>
+          <li>Ensuring data systems align with industry best practices and SDLC (Software Development Lifecycle)</li>
+          <li>Fostering cross-functional collaboration to solve real-world data challenges</li>
+          <li>Driving data availability, integrity, and scalability to support analytics and business decisions</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
       </text>
     </div>
     <div class="mt-8">
@@ -35,28 +57,31 @@ Thanks for visiting!
   </div>
 
   <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="NEW"
+    title="AsyncTaskFlow"
+    desc="Scalable containerized async task processing platform using FastAPI, Celery, RabbitMQ, and PostgreSQL, fully containerized with Docker Compose."
+    url="https://github.com/hariharandata/message_queue"
+    badge="Distributed Systems"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="NoSQL Distributed Messaging System"
+    desc="Developed a scalable producer-consumer architecture enabling reliable data ingestion and storage, with support for both MongoDB Atlas and local MongoDB setups."
+    url="https://github.com/hariharandata/mongo_db_project"
+    badge="Data Engineering"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 3"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="FOSS"
+    title="ML-K8s-FastAPI"
+    img="/project_img/ml_k8s_fastapi.png"
+    desc="Developed and containerized a Scikit-learn based Iris flower classification API using FastAPI, designed for Kubernetes deployment"
+    url="https://github.com/hariharandata/ML-K8s-Fastapi"
+    badge="Machine Learning"
   />
 
+</BaseLayout>
+
+
+  {/* Blog Section
   <div>
     <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from blog</div>
   </div>
@@ -76,4 +101,5 @@ Thanks for visiting!
       </>
     ))
   }
-</BaseLayout>
+  End of Blog Section */}
+

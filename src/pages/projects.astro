@@ -5,23 +5,36 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 
 <BaseLayout title = "Projects" sideBarActiveItemID="projects">
   <div>
-    <div class="text-3xl w-full font-bold mb-5">Projects Header</div>
+    <div class="text-3xl w-full font-bold mb-5">Projects</div>
   </div>
 
   <HorizontalCard
-    title="Demo Project 1"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
-    badge="NEW"
+    title="AsyncTaskFlow"
+    img="/project_img/ml_k8s_fastapi.png"
+    desc="Scalable containerized async task processing platform using FastAPI, Celery, RabbitMQ, and PostgreSQL, fully containerized with Docker Compose."
+    url="https://github.com/hariharandata/message_queue"
+    badge="Distributed Systems"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
-    title="Demo Project 2"
-    img="/post_img.webp"
-    desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    url="#"
+    title="NoSQL Distributed Messaging System"
+    desc="Developed a scalable producer-consumer architecture enabling reliable data ingestion and storage, with support for both MongoDB Atlas and local MongoDB setups."
+    url="https://github.com/hariharandata/mongo_db_project"
+    badge="Data Engineering"
   />
+  <div class="divider my-0"></div>
+  <HorizontalCard
+    title="ML-K8s-FastAPI"
+    desc="Developed and containerized a Scikit-learn based Iris flower classification API using FastAPI, designed for Kubernetes deployment"
+    url="https://github.com/hariharandata/ML-K8s-Fastapi"
+    badge="Machine Learning"
+  />
+
+
+
+</BaseLayout>
+
+  {/* Project Section
 
   <div>
     <div class="text-3xl w-full font-bold mb-5 mt-10">Projects Header</div>
@@ -29,7 +42,7 @@ import HorizontalCard from "../components/HorizontalCard.astro";
 
   <HorizontalCard
     title="Demo Project 3"
-    img="/post_img.webp"
+    img="/project_img/ml_k8s_fastapi.png"
     desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     url="#"
     badge="FOSS"
@@ -37,15 +50,14 @@ import HorizontalCard from "../components/HorizontalCard.astro";
   <div class="divider my-0"></div>
   <HorizontalCard
     title="Demo Project 4"
-    img="/post_img.webp"
+    img="/project_img/ml_k8s_fastapi.png"
     desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     url="#"
   />
   <div class="divider my-0"></div>
   <HorizontalCard
     title="Demo Project 5"
-    img="/post_img.webp"
+    img="/project_img/ml_k8s_fastapi.png"
     desc="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     url="#"
-  />
-</BaseLayout>
+  />  End of Project Section */}
